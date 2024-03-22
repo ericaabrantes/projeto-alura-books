@@ -65,6 +65,9 @@ background-color: var(--branco);
     display: none;
 }
 
+.container__texto{
+    display: none;
+}
 @media screen and (min-width:1024px){
      .container__titulo, .container__titulo--negrito{
         font-family: var(--fonte-secundaria);
@@ -108,6 +111,28 @@ background-color: var(--branco);
 
     .opcoes__botao{
         display: none;
+    }
+
+}
+
+@media screen and (min-width:1728px) {
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto; /*macete para empurrar os itens para o lado, ele tenta preencher todo o espaço*/
+    }
+
+    .container__texto{
+        display: block;
     }
 
 }

@@ -51,8 +51,14 @@
 
         <div class="container">
             <a href="#"><img src="assets/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-transparente" > </a>
-            <a href="#"><img src="assets/Sacola.svg" alt="Carrinho de Compras" class="container__imagem"> </a>
-            <a href="#"><img src="assets/Usuario.svg" alt="Meu perfil" class="container__imagem"> </a>
+            <a href="#" class="container__link">
+                <img src="assets/Sacola.svg" alt="Carrinho de Compras" class="container__imagem"> 
+                <p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="assets/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu Perfil</p>
+             </a>
         </div>
    </header>
    <section class="banner">
@@ -62,6 +68,8 @@
    </section>
    <section class="carrossel">
     <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+    <div class="carrossel__container">
     <!-- Slider main container -->
         <div class="swiper">
                         <!-- If we need pagination -->
@@ -109,6 +117,7 @@
              </div>
 
         </div>
+    </div>
    </section>
 
    <section class="topicos">
